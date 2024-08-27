@@ -1,0 +1,163 @@
+body {
+
+  font-family: Arial, sans-serif;
+  background-image: url(../images/bg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+
+  background-color: #0B666A;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #0B666A;
+  padding: 5px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  padding: 20px;
+  margin-bottom: 200px;
+}
+
+footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0B666A;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.flex-item {
+  flex: 1;
+  color: white;
+  /* box-shadow: 5px 10px 10px black, 10px 20px 20px #0a1b1c; */
+  padding: 10px;
+  margin: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  color: aliceblue;
+}
+
+.pro1-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pro1-flex>div {
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.pro2-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pro2-flex>div {
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.pro3-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pro3-flex>div {
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.skill-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skill-flex {
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+#style-text {
+  color: white;
+  font-size: large;
+}
+
+#style-text:hover {
+  color: #0B666A;
+}
+
+#skill {
+  color: white;
+}
+
+label {
+  color: white;
+  padding: 20px;
+}
+
+#style {
+  color: white;
+  font-size: large;
+}
+
+#style:hover {
+  color: #0a1b1c;
+}
+
+img {
+  border-radius: 20px;
+}
